@@ -70,8 +70,7 @@ export const CardFooter = ({cambiarTextos, textos}) => {
                 <li>
                     <img
                         name='user'
-                        src="/imagenes/user.svg"
-                        alt="icon"
+                        src={process.env.PUBLIC_URL +'/imagenes/user.svg'}                        alt="icon"
                         onMouseEnter={clase}
                         className={
                             textos.icono === 'user' ? 'active' : ''
@@ -81,7 +80,7 @@ export const CardFooter = ({cambiarTextos, textos}) => {
                 <li>
                     <img
                         name='email'
-                        src="/imagenes/email.svg"
+						src={process.env.PUBLIC_URL + '/imagenes/email.svg'}
                         alt="icon"
                         onMouseEnter={clase}
                         className={
@@ -92,7 +91,7 @@ export const CardFooter = ({cambiarTextos, textos}) => {
                 <li>
                     <img
                         name='birthday'
-                        src="/imagenes/birthday.svg"
+						src={process.env.PUBLIC_URL + '/imagenes/birthday.svg'}
                         alt="icon"
                         onMouseEnter={clase}
                         className={
@@ -103,7 +102,7 @@ export const CardFooter = ({cambiarTextos, textos}) => {
                 <li>
                     <img
                         name='address'
-                        src="/imagenes/address.svg"
+						src={process.env.PUBLIC_URL +'/imagenes/address.svg'}
                         alt="icon"
                         onMouseEnter={clase}
                         className={
@@ -114,7 +113,7 @@ export const CardFooter = ({cambiarTextos, textos}) => {
                 <li>
                     <img
                         name='phone'
-                        src="/imagenes/phone.svg"
+						src={process.env.PUBLIC_URL +'/imagenes/phone.svg'}
                         alt="icon"
                         onMouseEnter={clase}
                         className={
@@ -125,7 +124,7 @@ export const CardFooter = ({cambiarTextos, textos}) => {
                 <li>
                     <img
                         name='username'
-                        src="/imagenes/password.svg"
+						src={process.env.PUBLIC_URL +'/imagenes/password.svg'}
                         alt="icon"
                         onMouseEnter={clase}
                         className={
