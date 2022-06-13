@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/Evaluacion-Formativa-3-y-4/static/css/main.c39c80ff.css",
+    "main.css": "/Evaluacion-Formativa-3-y-4/static/css/main.7450b252.css",
     "main.js": "/Evaluacion-Formativa-3-y-4/static/js/main.275e73c9.js",
     "static/js/787.a0222c5e.chunk.js": "/Evaluacion-Formativa-3-y-4/static/js/787.a0222c5e.chunk.js",
     "index.html": "/Evaluacion-Formativa-3-y-4/index.html",
-    "main.c39c80ff.css.map": "/Evaluacion-Formativa-3-y-4/static/css/main.c39c80ff.css.map",
+    "main.7450b252.css.map": "/Evaluacion-Formativa-3-y-4/static/css/main.7450b252.css.map",
     "main.275e73c9.js.map": "/Evaluacion-Formativa-3-y-4/static/js/main.275e73c9.js.map",
     "787.a0222c5e.chunk.js.map": "/Evaluacion-Formativa-3-y-4/static/js/787.a0222c5e.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.c39c80ff.css",
+    "static/css/main.7450b252.css",
     "static/js/main.275e73c9.js"
   ]
 }
