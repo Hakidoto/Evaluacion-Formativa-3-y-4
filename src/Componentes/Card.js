@@ -59,7 +59,14 @@ export const Card = ({ users, newUser }) => {
                     main: `${users[actual].location.street.number} ${users[actual].location.street.name}`,
                     icono: 'address',
                 });
-                break;
+            break;
+                case 'phone':
+                    setTextos({
+                        parrafo: 'Mi numero de telefono es',
+                        main: `${users[actual].phone}`,
+                        icono: 'phone',
+                    });
+                    break;
             case 'username':
                 setTextos({
                     parrafo: "Mi nombre de usuario es",
